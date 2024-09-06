@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 
 body {
-    background-image: image(Webbackground.png);
+    background-image: url(Webbackground.png);
     background-size: 1920px;
     color: white;
 }
