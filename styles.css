@@ -1,60 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url();
 
 body {
-    background-color: rgb(27, 27, 27);
-    color: white;
-    font-family: sans-serif;
-}
-
-h1 {
-    font-family: fredoka;
-    color: rgb(201, 201, 201);
-    transition-duration: 0.4s;
-}
-
-h1:hover {
+    background-image: url(https://imgs.search.brave.com/94Q5moR6us1aJBdG21L6ULv3UzXSaIJ7uCHUGdHVQbM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDMxOTkx/MzUuanBn);
+    background-size: 1920px;
     color: white;
 }
 
 a {
-    color: rgb(204, 204, 204);
-    background-color: rgb(34, 34, 34);
-    text-decoration-line: none;
-    font-size: x-large;
-    font-family: sans-serif;
     transition-duration: 0.4s;
-    border: rgb(34, 34, 34) solid 2px;
-    border-right-width: 10px;
-    border-left-width: 10px;
+    color: gray;
+    font-size: x-large;
+    font-family: Fredoka;
+    text-decoration: none;
     border-radius: 10px;
-}
-
-a:hover {
-    color: white;
-    font-size: xx-large;
+    border-width: 3px;
     border-right-width: 20px;
     border-left-width: 20px;
+    border: rgb(36, 36, 36) solid 2px;
+    background-color: rgb(36, 36, 36);
+}
+
+a:hover{
+    font-size: xx-large;
+    color: white;
+    border: rgb(32, 32, 32) solid 2px;
     border-radius: 5px;
+    border-width: 3px;
+    border-right-width: 5px;
+    border-left-width: 5px;
 }
 
-header {
-    background-color: rgb(24, 24, 24);
-    padding: 25px;
-    border: 2px solid rgb(24, 24, 24);
-    border-radius: 10px;
+h1 {
+    font-family: Fredoka;
 }
 
-.polokalap {
-    position: fixed;
-    bottom: 10px;
-    filter: opacity(0);
-    transition-duration: 0.4s;
-}
-
-.polokalap:hover {
-    filter: opacity(0.1);
-}
-
-.unalmas {
-    font-family: 'Times New Roman', Times, serif;
-}
