@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 
 body {
-    background-image: url(WebBackground.png);
+    background-image:url(WebBackground.png);
     background-size: 1920px;
     color: white;
 }
@@ -16,14 +16,14 @@ a {
     border-width: 3px;
     border-right-width: 20px;
     border-left-width: 20px;
-    border: rgb(36, 36, 36) solid 2px;
+    border: rgb(31, 31, 31) solid 2px;
     background-color: rgb(36, 36, 36);
 }
 
 a:hover{
     font-size: xx-large;
     color: white;
-    border: rgb(32, 32, 32) solid 2px;
+    border: rgb(97, 97, 97) solid 2px;
     border-radius: 5px;
     border-width: 3px;
     border-right-width: 5px;
