@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+body {
+    background-image: url(Untitled.png);
+    font-family: Fredoka;
+    color: rgb(255, 230, 230);
+}
+
+h1 {
+    transition: 0.4s;
+    border-radius: 10px;
+    border-left-width: 30px;
+    border-right-width: 30px;
+    border-width: 3px;
+    border: rgb(54, 54, 54);
+    font-size: x-large;
+}
+
+h1:hover{
+    border-radius: 10px;
+    border-width: 3px;
+    border-left-width: 15px;
+    border-right-width: 15px;
+    border: rgb(54, 54, 54);
+    font-size: xx-large;
+}
