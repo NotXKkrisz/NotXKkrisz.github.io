@@ -2,7 +2,7 @@
 
 body {
     background-image:url(WebBackground.png);
-    background-size: 1920px;
+    background-size: auto;
     color: white;
 }
 
